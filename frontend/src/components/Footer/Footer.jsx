@@ -2,8 +2,8 @@ import React from "react";
 
 import { Link } from 'react-router-dom';
 import logo from '../../assets/images/logo.png'
-import {RiLinkedinFil} from 'react-icons/ri'
-import {AiFillYoutube, AiFillGithub,AiOutlineInstagram} from 'react-icons'
+import {RiLinkedinFill} from 'react-icons/ri'
+import {AiFillYoutube, AiFillGithub,AiOutlineInstagram} from 'react-icons/ai';
 
 const socialLinks = [
     {
@@ -20,7 +20,7 @@ const socialLinks = [
     },
     {
         path:"http://www.linkedin.com/c/CodingWithmuhib",
-        icon:<RiLinkedinFil className="group-hover:text-white w-4 h-5" />,
+        icon:<RiLinkedinFill className="group-hover:text-white w-4 h-5" />,
     },
 ];
 

@@ -36,3 +36,4 @@ const FaqItem = ({ item }) => {
         </div>
     )
 }
+export default FaqItem

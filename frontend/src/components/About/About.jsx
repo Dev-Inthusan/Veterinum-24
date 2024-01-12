@@ -1,4 +1,6 @@
 import React from 'react'; 
+import { Link } from 'react-router-dom'
+
 import aboutImg from '../../assets/images/about.png'
 import aboutCardImg from '../../assets/images/about-card.png'
 
@@ -40,3 +42,4 @@ const About = () => {
     </section>
     
 }
+export default About

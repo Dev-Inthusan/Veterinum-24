@@ -1,8 +1,8 @@
 
 
 import React from "react";
-import {pagination} from 'swiper'
-import { Swiper,swiperSlides } from "swiper/react";
+import {Pagination} from 'swiper/modules'
+import { Swiper,SwiperSlide} from "swiper/react";
 import 'swiper/css'
 import 'swiper/css/pagination'
 import patientAvatar from '../../assets/images/patient-avatar.png'
@@ -11,7 +11,7 @@ import {HiStar} from 'react-icons/hi'
 const Testimonial = () => {
     return (
         <div className="mt-[30px] lg:mt-[55px]">
-            <Swiper modules={[pagination]} spaceBetween={30} slidesPerView={1} pagination={{clickable:true}}
+            <Swiper modules={[Pagination]} spaceBetween={30} slidesPerView={1} pagination={{clickable:true}}
             breakpoints={{
                 640: {
                     slidesPerView:1,
@@ -28,7 +28,7 @@ const Testimonial = () => {
                 }
             }}
             >
-                <swiperSlide>
+                <SwiperSlide>
                     <div className="py-[30px] px-5 rounded-[13px]">
                         <div className="flex items-center gap-[13px]">
                             <img src={patientAvatar} alt="" />
@@ -52,8 +52,8 @@ const Testimonial = () => {
                             Culpa cum fugiat quas reprehenderit tempore doloremque a "
                         </p>
                     </div>
-                </swiperSlide>
-                <swiperSlide>
+                </SwiperSlide>
+                <SwiperSlide>
                     <div className="py-[30px] px-5 rounded-[13px]">
                         <div className="flex items-center gap-[13px]">
                             <img src={patientAvatar} alt="" />
@@ -77,9 +77,9 @@ const Testimonial = () => {
                             Culpa cum fugiat quas reprehenderit tempore doloremque a "
                         </p>
                     </div>
-                </swiperSlide>
+                </SwiperSlide>
 
-                <swiperSlide>
+                <SwiperSlide>
                     <div className="py-[30px] px-5 rounded-[13px]">
                         <div className="flex items-center gap-[13px]">
                             <img src={patientAvatar} alt="" />
@@ -103,8 +103,8 @@ const Testimonial = () => {
                             Culpa cum fugiat quas reprehenderit tempore doloremque a "
                         </p>
                     </div>
-                </swiperSlide>
-                <swiperSlide>
+                </SwiperSlide>
+                <SwiperSlide>
                     <div className="py-[30px] px-5 rounded-[13px]">
                         <div className="flex items-center gap-[13px]">
                             <img src={patientAvatar} alt="" />
@@ -128,7 +128,7 @@ const Testimonial = () => {
                             Culpa cum fugiat quas reprehenderit tempore doloremque a "
                         </p>
                     </div>
-                </swiperSlide>
+                </SwiperSlide>
 
             </Swiper>
         </div>

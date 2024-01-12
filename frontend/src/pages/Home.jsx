@@ -1,6 +1,6 @@
 import React from 'react'; 
 
-// import heroImg01 from "../assets/images/heroImg01.png";
+import heroImg01 from "../assets/images/heroimg01.png";
 // import heroImg02 from '../assets/images/heroImg02.png';
 // import heroImg03 from '../assets/images/heroImg03.png'
 import icon01 from '../assets/images/icon01.png';
@@ -10,7 +10,7 @@ import featureImg from '../assets/images/feature-img.png';
 import faqImg from '../assets/images/faq-img.png'
 import videoIcon from '../assets/images/video-icon.png';
 import avatarIcon from '../assets/images/avatar-icon.png'
-import { Link, redirect } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import { BsArrowRight, } from 'react-icons/bs';
 import About from '../components/About/About';
 import ServiceList from '../components/Services/Servicelist'
@@ -81,7 +81,7 @@ const Home = () => {
                         <img className='w-full'src={heroImg01} alt='' />
                     </div>
                     <div className='mt-[30px]'>
-                        <img src={require('heroimg02')} alt="" className='w-full mb-[30px]' />
+                        <img src='../assets/images/heroimg02.png' alt="" className='w-full mb-[30px]' />
                         <img src="{heroimg03}" alt="" className='w-full'/>
                     </div>
 
@@ -188,18 +188,19 @@ const Home = () => {
         <About />
 
         {/*=======service section======= */}
-        <section>
+        {/* <section>
             <div className='container'>
                 <div className='xl:w-[470px] mx-auto'>
                     <h2 className='heading text-center'>Our medical services</h2>
-                    <p className='text_para text-center'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, praesentium!
+                    <p className='text_para text-center'>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, praesentium!
                          Reiciendis doloremque optio rem.
                      </p>
                 </div>
             
               <ServiceList />
             </div>
-        </section>
+        </section> */}
 
         {/*=======service section end======= */}
 
