@@ -20,7 +20,7 @@ const authReducer = (state,action)=>{
 
         case 'LOGIN_SUCCESS':
             return{
-                user:action.payload,user,
+                user:action.payload.user,
                 token:action.payload.token,
                 role:action.payload.role,
             }

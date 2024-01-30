@@ -79,7 +79,7 @@ export const getAllDoctors = async (req,res) => {
         const {query} = req.query
         let doctors
 
-        if(query){
+        if (query) {
             doctors = await Doctor.find({
                isApproved:'approved',
                $or:[
