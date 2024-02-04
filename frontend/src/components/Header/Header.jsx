@@ -108,6 +108,7 @@ const Header =  () => {
                 </div>
                
             
+
             <span className="md:hidden">
                 <BiMenu className='w-6 h-6 cursor-pointer' />
             </span>
@@ -119,7 +120,7 @@ const Header =  () => {
     </header>
     );
 };
-
+// ....
 export default Header;
 
 
